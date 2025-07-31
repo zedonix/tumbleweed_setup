@@ -85,6 +85,7 @@
 
     <software>
         <base>minimal</base>
+        <product>openSUSE Tumbleweed</product>
         <packages config:type="list">
             <!-- OS meta‑packages -->
             <package>aaa_base</package>
