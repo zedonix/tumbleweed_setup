@@ -34,22 +34,27 @@
     </networking>
 
     <add-on>
+        <!-- Mirror redirector: OSS -->
         <add_on>
-            <media_url>https://mirrorcache.opensuse.org/tumbleweed/repo/oss/</media_url>
+            <media_url>http://mirrorcache.opensuse.org/tumbleweed/repo/oss/</media_url>
             <product>openSUSE Tumbleweed</product>
-            <name>Main Repository (OSS)</name>
+            <name>Mirror OSS</name>
             <priority config:type="integer">99</priority>
         </add_on>
+
+        <!-- Mirror redirector: Non-OSS -->
         <add_on>
-            <media_url>https://mirrorcache.opensuse.org/tumbleweed/repo/non-oss/</media_url>
+            <media_url>http://mirrorcache.opensuse.org/tumbleweed/repo/non-oss/</media_url>
             <product>openSUSE Tumbleweed Non-OSS</product>
-            <name>Non-OSS Repository</name>
+            <name>Mirror Non-OSS</name>
             <priority config:type="integer">98</priority>
         </add_on>
+
+        <!-- Mirror redirector: Update -->
         <add_on>
-            <media_url>https://mirrorcache.opensuse.org/update/tumbleweed/</media_url>
+            <media_url>http://mirrorcache.opensuse.org/update/tumbleweed/</media_url>
             <product>openSUSE Tumbleweed Update</product>
-            <name>Update Repository</name>
+            <name>Mirror Update</name>
             <priority config:type="integer">97</priority>
         </add_on>
     </add-on>
